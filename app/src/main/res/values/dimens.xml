@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_l">16sp</dimen>
+    <dimen name="size_plus">44sp</dimen>
+    <dimen name="size_r">18sp</dimen>
+    <dimen name="sizeView">20sp</dimen>
+    <dimen name="margin_plus">8sp</dimen>
+    <dimen name="margin_p">6sp</dimen>
+</resources>
