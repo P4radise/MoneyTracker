@@ -41,9 +41,8 @@
             android:layout_height="wrap_content"
             android:paddingEnd="@dimen/margin_p"
             android:paddingStart="@dimen/margin_p"
-            android:text="P"
-            android:textSize="@dimen/size_r"
-            tools:ignore="HardcodedText" />
+            android:text="@string/rouble"
+            android:textSize="@dimen/size_r" />
 
         <TextView
             android:id="@+id/add"
