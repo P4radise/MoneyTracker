@@ -13,8 +13,7 @@
         <item name="android:layout_toStartOf">@+id/price</item>
         <item name="android:background">@color/colorGoldenYellow</item>
         <item name="android:gravity">center_vertical</item>
-        <item name="android:paddingEnd">@dimen/padding_name</item>
-        <item name="android:paddingStart">@dimen/padding_name</item>
+        <item name="android:padding">@dimen/margin_l</item>
         <item name="android:textColor">@android:color/white</item>
         <item name="android:textSize">@dimen/size_item</item>
     </style>
@@ -22,6 +21,9 @@
     <style name="style_price">
         <item name="android:layout_alignParentEnd">true</item>
         <item name="android:layout_alignParentTop">true</item>
+        <item name="android:padding">@dimen/margin_l</item>
+        <item name="android:layout_alignBottom">@+id/name</item>
+        <item name="android:layout_alignTop">@+id/name</item>
         <item name="android:background">@color/colorMustard</item>
         <item name="android:gravity">center</item>
         <item name="android:textColor">@android:color/white</item>

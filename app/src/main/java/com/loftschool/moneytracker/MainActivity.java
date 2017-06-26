@@ -27,7 +27,9 @@ public class MainActivity extends AppCompatActivity {
         ItemsAdapter() {
             items.add(new Item("house", 10));
             items.add(new Item("macbook", 400));
-            items.add(new Item("camaro", 5000));
+            items.add(new Item("Сковородка с \n" +
+                    "антипригарным\n" +
+                    "покрытием", 5000));
         }
 
         @Override
