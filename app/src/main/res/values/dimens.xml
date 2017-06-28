@@ -6,4 +6,8 @@
     <dimen name="sizeView">20sp</dimen>
     <dimen name="margin_plus">8sp</dimen>
     <dimen name="margin_p">6sp</dimen>
+    <dimen name="size_item">20sp</dimen>
+    <dimen name="padding_name">8sp</dimen>
+    <dimen name="padding_items">6sp</dimen>
+    <dimen name="padding_itemsEnd">22sp</dimen>
 </resources>
