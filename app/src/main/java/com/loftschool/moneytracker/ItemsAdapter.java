@@ -12,17 +12,16 @@ import java.util.List;
 class ItemsAdapter extends RecyclerView.Adapter<ItemsAdapter.ItemViewHolder> {
     private final List<Item> items = new ArrayList<>();
 
-    ItemsAdapter() {
-        items.add(new Item("house", 10));
-        items.add(new Item("macbook", 400));
-        items.add(new Item("Сковородка с \n" +
-                "антипригарным\n" +
-                "покрытием", 5000));
-    }
-
+    //    ItemsAdapter() {
+//        items.add(new Item("house", 10));
+//        items.add(new Item("macbook", 400));
+//        items.add(new Item("Сковородка с \n" +
+//                "антипригарным\n" +
+//                "покрытием", 5000));
+//    }
     @Override
     public ItemViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        return new ItemViewHolder(LayoutInflater.from(parent.getContext()).inflate(R.layout.item, null));
+        return new ItemViewHolder(LayoutInflater.from(parent.getContext()).inflate(R.layout.item, parent, false));
     }
 
     @Override
@@ -37,8 +36,17 @@ class ItemsAdapter extends RecyclerView.Adapter<ItemsAdapter.ItemViewHolder> {
         return items.size();
     }
 
+    void clear() {
+        items.clear();
+    }
+
+    void addAll(List<Item> items) {
+        this.items.addAll(items);
+        notifyDataSetChanged();
+    }
+
     class ItemViewHolder extends RecyclerView.ViewHolder {
-        final TextView name, price;
+        private final TextView name, price;
 
         ItemViewHolder(View itemView) {
             super(itemView);
