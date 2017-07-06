@@ -8,7 +8,7 @@ import android.text.TextWatcher;
 import android.widget.EditText;
 import android.widget.TextView;
 
-public class TempActivity extends AppCompatActivity {
+public class AddItem extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
