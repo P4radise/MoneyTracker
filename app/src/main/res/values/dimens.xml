@@ -11,4 +11,5 @@
     <dimen name="padding_items">6sp</dimen>
     <dimen name="padding_itemsEnd">22sp</dimen>
     <dimen name="size_balance">50sp</dimen>
+    <dimen name="elevation">5sp</dimen>
 </resources>
