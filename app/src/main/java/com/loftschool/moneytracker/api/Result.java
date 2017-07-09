@@ -2,7 +2,7 @@ package com.loftschool.moneytracker.api;
 
 import android.text.TextUtils;
 
-class Result {
+public class Result {
     private String status;
 
     public boolean isSuccess() {

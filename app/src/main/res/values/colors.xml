@@ -11,4 +11,6 @@
     <color name="colorMustard">#E6AE1E</color>
     <color name="colorIndicator">#FFFF8E</color>
     <color name="colorInactive">#a6ffffff</color>
+    <color name="colorLightBrown">#98510a</color>
+    <color name="colorDarkBrown">#944E09</color>
 </resources>
