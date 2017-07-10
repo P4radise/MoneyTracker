@@ -10,6 +10,8 @@
     <string name="incomes">доходы</string>
     <string name="balance">баланс</string>
 
+    <string name="confirm_remove">Удалить?</string>
+
     <string name="error">Произошла ошибка</string>
     <string name="new_item">Новая запись</string>
 
