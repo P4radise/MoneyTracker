@@ -157,7 +157,7 @@ public class ItemsFragment extends Fragment {
 
     private void toggleSelection(MotionEvent e, RecyclerView items) {
         adapter.toggleSelection(items.getChildLayoutPosition(items.findChildViewUnder(e.getX(), e.getY())));
-        String title = adapter.getSelectedItemCount() + " выбран";
+        String title = "Выбрана " + adapter.getSelectedItemCount() + " запись";
         if (actionMode != null) actionMode.setTitle(title);
     }
 

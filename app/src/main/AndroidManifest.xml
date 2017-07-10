@@ -21,6 +21,17 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".AuthActivity"
+            android:label=""
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".AddItemActivity"
             android:label="@string/new_item"
             android:parentActivityName=".MainActivity"

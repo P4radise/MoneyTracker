@@ -14,6 +14,7 @@
 
     <string name="error">Произошла ошибка</string>
     <string name="new_item">Новая запись</string>
+    <string name="auth_text">Ваш незаменимый помощник  в управлении бюджетом</string>
 
     <array name="main_pager_titles">
         <item>@string/expenses</item>
