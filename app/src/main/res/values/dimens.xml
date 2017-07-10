@@ -12,4 +12,11 @@
     <dimen name="padding_itemsEnd">22sp</dimen>
     <dimen name="size_balance">50sp</dimen>
     <dimen name="elevation">5sp</dimen>
+    <dimen name="margin_logo">46dp</dimen>
+    <dimen name="margin_auth_text">22dp</dimen>
+    <dimen name="width_auth_text">198dp</dimen>
+    <dimen name="margon_gplus">36dp</dimen>
+    <dimen name="margin_intro">25dp</dimen>
+    <dimen name="width_number">60dp</dimen>
+    <dimen name="elevation_cardview">4dp</dimen>
 </resources>

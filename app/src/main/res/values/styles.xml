@@ -26,7 +26,7 @@
         <item name="android:layout_alignBottom">@+id/name</item>
         <item name="android:layout_alignTop">@+id/name</item>
         <item name="android:background">@drawable/bg_item_price</item>
-        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColor">@color/colorWhite</item>
         <item name="android:textSize">@dimen/size_item</item>
         <item name="android:textStyle">bold</item>
     </style>
@@ -47,5 +47,16 @@
         <item name="colorAccent">@color/colorAccent</item>
         <item name="actionModeBackground">@color/colorPrimary</item>
         <item name="windowActionModeOverlay">true</item>
+    </style>
+
+    <style name="NoActionBar" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
     </style>
 </resources>
