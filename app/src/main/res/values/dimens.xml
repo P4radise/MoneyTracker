@@ -19,4 +19,5 @@
     <dimen name="margin_intro">25dp</dimen>
     <dimen name="width_number">60dp</dimen>
     <dimen name="elevation_cardview">4dp</dimen>
+    <dimen name="text_xlarge">24sp</dimen>
 </resources>
