@@ -10,6 +10,11 @@
     <string name="incomes">доходы</string>
     <string name="balance">баланс</string>
 
+    <string name="expense">расход</string>
+    <string name="income">доход</string>
+    <string name="your_balance">ваш баланс</string>
+    <string name="price">%1$d \u20bd</string>
+
     <string name="confirm_remove">Удалить?</string>
 
     <string name="error">Произошла ошибка</string>

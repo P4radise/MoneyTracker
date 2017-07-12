@@ -13,4 +13,8 @@
     <color name="colorInactive">#a6ffffff</color>
     <color name="colorLightBrown">#98510a</color>
     <color name="colorDarkBrown">#944E09</color>
+    <color name="colorExpense">#f76c41</color>
+    <color name="colorItem">#fcc31e</color>
+    <color name="colorComment">#95989a</color>
+    <color name="color_primary_bright">#3ab7ae</color>
 </resources>
